@@ -1,0 +1,441 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navsection{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.abc1{
+    display: flex;
+    gap:30px;
+}
+.div1{
+    display: flex;
+    gap:10px;
+}
+.div2{
+    display: flex;
+    gap: 18px;
+    /* padding-top: 16px; */
+    /* padding-right: 40px; */
+}
+.navsection .div1{
+    display: flex;
+    align-items:baseline;
+}
+.logo{
+    width: min(50vw, 150px);
+    padding-top: 19px;
+    padding-left: 19px;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+.abc3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+@media only screen and (max-width: 1024px){
+.abc3 .navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+}
+.abc3{
+    background-color: rgb(52, 48, 48);
+    color: white;
+}
+.abc4 img{
+    width: min(50vw, 200px);
+}
+.abc4 div{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 140px;
+    padding-right: 140px;
+}
+.abc4{
+    background-image: url(./assests/slide2.png);
+    height: 500px;
+}
+/* page 1 */
+/* ************************************************************** */
+.pag1{
+    display: flex;
+    justify-content: space-around;;
+    background-color: rgb(247, 247, 247);
+    padding-top: 7%;
+    padding-left:20% ;
+    padding-right:20% ;
+    padding-bottom: 5%;
+}
+.pag1 h5{
+    display: flex;
+    font-size:medium;
+    padding-left: 11px;
+    padding-top: -2%;
+    margin-bottom: -4%;
+    font-weight: 500;
+}
+.pag1 p{
+    display: flex;
+    font-size: small;
+    text-align: left;
+    padding: 10px;
+}
+.pag1 div{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pag1 .p1 svg{
+    padding-left: 80px;
+}
+@media only screen and (max-width: 768px){
+    .pag1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     .pag1 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .p1 {
+        display: flex;
+        align-items: center;
+    }
+    .imgsec div{
+        display: flex;   
+        justify-content: center; 
+    } 
+}
+.imgsec div{
+    display: flex;
+    justify-content: center;
+   }  
+.imgsec div img{
+    width: 70%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+/* ****************************************************************************** */
+/* banner */
+.b1{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: small;
+}
+.b1 h5{
+    font-size: medium;
+    font-family: sans-serif;
+}
+.b1 div{
+    width:15%;
+}
+@media only screen and (max-width: 767px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .b1{
+        display: flex;
+        flex-direction: column;
+    }
+    .b1 div{
+        width:100%;
+        text-align: center;
+    }
+}
+ .banner{
+    background-image:
+    linear-gradient(to bottom, rgba(22, 22, 22, 0.52), rgba(35, 35, 35, 0.73)),
+    url('./assests/car-city-commerce-1051397.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 30px;
+    background-attachment: fixed;
+} 
+/* about-us */
+/* ***********************************************************88******* */
+.about-us, .our-skills{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+   /* padding: 20px 40px; */
+}
+.data2{
+    color: white;
+}
+.he1 ,.he2, .he3, .he4, .he5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.data1{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height:17px;
+}
+.page3{
+    display: flex;
+}
+.page3 .data01,.data2{
+    width: 50%;
+    padding: 0px 100px;
+}
+.data2{
+    background-image: url(./assests/Hardware\ Section\ 1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    /* padding: 0px 50px; */
+}
+.our-vision, .our-mission{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.about-us::after{
+    content: "";
+    position: absolute;
+     top: 2089px;
+    width: 49px;
+    left: 100px;
+    border: 1px solid red;
+}
+.our-skills::after{
+    content: "";
+    position: absolute;
+    top: 2090px; 
+    width: 65px;
+    right: 590px;
+    border: 1px solid red;
+}
+.he1::after{
+    content: "";
+    position: absolute;
+    top: 2140px; 
+    width: 610px;
+    right: 46px;
+    border: 1px solid red;
+}
+ .he2::after{
+    content: "";
+    position: absolute;
+    top: 2175px; 
+    width: 610px;
+    right: 46px;
+    border: 1px solid red;
+}
+.he3::after{
+    content: "";
+    position: absolute;
+    top: 2216px; 
+    width: 610px;
+    right: 46px;
+    border: 1px solid red;
+}
+.he4::after{
+    content: "";
+    position: absolute;
+    top: 2255px; 
+    width: 610px;
+    right: 46px;
+    border: 1px solid red;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767px){
+   .page3{
+    display: flex;
+    flex-direction: column;
+   }
+   .about-us::after{
+    content: "";
+    position: absolute;
+     top: 3230px;
+    width: 45px;
+    left: 100px;
+    border: 1px solid red;
+}
+.our-skills::after{
+    content: "";
+    position: absolute;
+    top: 3920px; 
+    width: 39px;
+    left: 103px;
+    /* right: 590px; */
+    border: 1px solid red;
+}
+.he1::after{
+    content: "";
+    position: absolute;
+    top: 3980px; 
+    width: 270px;
+    right: 246px;
+    border: 1px solid red;
+}
+ }
+ /* foam */
+ /* ************************************************************************************* */
+
+ .foam-lr{
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+ }
+ .left-s{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* margin: 30px; */
+    background-color: black;
+    color: white;
+ }
+ #message{
+    background-color: rgb(211, 228, 226);
+    border: 1px solid ;
+    margin-top: -10px;
+    padding-top: -10px;
+ }
+ .right-s{
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+     background-color: rgb(238, 238, 235);
+ }
+ .left-s h2::after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    top: 2520px;
+    left: 280px;
+    border: 2px solid red;
+ }
+ .left-s h2, .ls-p{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    gap: 20px;
+    padding-left: 25px;
+ }
+ .ls-p a{
+    color: white;
+ }
+ .right-f ,.right-s{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+ }
+#name , #email{
+    height: 20px;
+    /* padding-top: -50px; */
+    margin-top: -13px;
+}
+
+.right-s h2::after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    top: 2520px;
+    right: 503px;
+    border: 1px solid red;
+ }
+ .foam-lr{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    /* color: white; */
+
+ }
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 85%;
+}    
+.footer-col1 {
+       flex-basis: 25%;
+       /* padding: 20px; */
+       padding-right: 40px;
+       font-family: sans-serif;
+       font-size: 12px;
+       font-weight: 200;
+}
+.footer-col2 , p ,h4{
+    font-family: sans-serif;
+}
+.footer-col3 , p ,h4{
+    font-family: sans-serif;
+    padding: 5px;
+}
+.logoft{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.footer-col1 h4{
+    width: fit-content;
+    margin-bottom: 20px; 
+    font-size: 19px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 991px){
+    .foam-lr{
+     display: flex;
+     flex-direction: column;
+    }
+    .footer-col1{
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 40px; */
+    }
+    .footer-col2{
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 40px; */
+
+    }
+    .footer-col3{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 40px; */
+
+    }
+}
